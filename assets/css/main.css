@@ -4125,11 +4125,9 @@ input, select, textarea {
   align-items: center; /* Centra verticalmente */
   height: 100vh;
 	margin: auto;
-	width: 100%;
 }
 
 @media screen and (max-width: 1280px) {
-
 	.full-height-container {
 		width: 80%;
 		max-width: 100%;
@@ -4138,19 +4136,18 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 980px) {
-
 	.full-height-container {
 		width: 100% !important;
 	}
 
-	@media screen and (min-width: 720px) {
+	@media screen and (max-height: 720px) {
         /* Para pantallas medianas y grandes, altura de 400px */
         .full-height-container {
             height: 400px;
         }
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-height: 1024px) {
         /* Para pantallas muy grandes, altura de 500px */
         .full-height-container {
             height: 600px;
