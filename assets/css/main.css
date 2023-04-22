@@ -4125,8 +4125,7 @@ input, select, textarea {
   align-items: center; /* Centra verticalmente */
   height: 100vh;
 	margin: auto;
-	max-width: calc(100% - 4em);
-	width: 50%;
+	width: 100%;
 }
 
 @media screen and (max-width: 1280px) {
