@@ -4143,14 +4143,3 @@ input, select, textarea {
 	.full-height-container {
 		width: 100% !important;
 	}
-
-#doble-fila{
-	display: flex;
-	flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-#doble > div {
-	width: 50%;
-}
