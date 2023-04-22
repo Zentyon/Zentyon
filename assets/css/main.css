@@ -4142,3 +4142,17 @@ input, select, textarea {
 	.full-height-container {
 		width: 100% !important;
 	}
+
+	@media screen and (min-width: 720px) {
+        /* Para pantallas medianas y grandes, altura de 400px */
+        .full-height-container {
+            height: 400px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        /* Para pantallas muy grandes, altura de 500px */
+        .full-height-container {
+            height: 600px;
+        }
+    }
